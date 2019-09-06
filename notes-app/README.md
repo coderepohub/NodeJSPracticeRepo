@@ -6,17 +6,24 @@ These are the commands which can be used to run the application :
 ```
 node app.js add --title="<YOUR_NOTE_TITLE>" --body="<YOUR_NOTE_BODY>"
 ```
+![picture alt](https://github.com/coderepohub/rawcontentfiles/blob/master/add.png "Notes Added")
+![picture alt](https://github.com/coderepohub/rawcontentfiles/blob/master/add_errormsg.png "Error while adding Notes")
 
 **Remove a Note**
 ```
 node app.js remove --title="<YOUR_NOTE_TITLE_TO_REMOVE>"
 ```
+![picture alt](https://github.com/coderepohub/rawcontentfiles/blob/master/remove.png "Notes Removed")
 
 **List all Notes**
 ```
 node app.js list
 ```
+![picture alt](https://github.com/coderepohub/rawcontentfiles/blob/master/list.png "Listing Notes")
+
 **Read a single Note**
 ```
 node app.js read --titke="<YOUR_NOTE_TITLE_TO_READ>"
 ```
+![picture alt](https://github.com/coderepohub/rawcontentfiles/blob/master/read.png "Reading Note")
+![picture alt](https://github.com/coderepohub/rawcontentfiles/blob/master/read_errormsg.png "Error while reading a note")
